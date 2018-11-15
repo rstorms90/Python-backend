@@ -7,7 +7,7 @@ from . import auth, blog, db
 
 app = Flask(__name__)
 app.config.from_mapping(
-    SECRET_KEY='LONG_RANDOM_STRING',
+    SECRET_KEY='asdfhlauif3h2398239123liaw9jf3lai3jfls8hfa',
     OIDC_CLIENT_SECRETS=join(dirname(dirname(__file__)), "client_secrets.json"),
     OIDC_COOKIE_SECURE=False,
     OIDC_CALLBACK_ROUTE="/oidc/callback",
